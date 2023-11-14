@@ -3,29 +3,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    height: 100%;
+    width: 100%;
+    /* background-color: yellow; */
+}
 nav{
-    align-items: center;
-    background-color: rgb(237, 230, 230);
+    color: white;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(9, 10, 10);
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.logo h1{
+    font-size: 40px;
+
+}
+.list a{
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+    font-size: 25px;
+}
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
     position: relative;
     width: 100%;
-    /* border-radius: 20px; */
-    box-shadow: rgba(182, 182, 232, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
-
 }
- nav .logo img{
-  margin: 5px;
-    width: 100px;
+
+.container .himg img{
+    height: 620px;
+    width: 140%;
+}
+ .content h1{
+color: brown;
+font-size: 60px;
+ font-weight:bold;
+ }
+ .content {
     
+ }
 
-
-}
-nav a{
-  
-    float: right;
-    text-decoration: none;
-    font-size: 25px;
-    color: rgb(12, 11, 11);
-}
