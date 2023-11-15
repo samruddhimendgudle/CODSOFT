@@ -47,7 +47,14 @@ color: brown;
 font-size: 60px;
  font-weight:bold;
  }
- .content {
-    
+ .aimg{
+    height: 50px;
+    width: 10px;
  }
+ .images{
+    display: flex;
+    padding: 90px;
+    height: 110px;
+    width: 110px;
 
+ }
