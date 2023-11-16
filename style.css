@@ -47,9 +47,35 @@ color: brown;
 font-size: 60px;
  font-weight:bold;
  }
- .aimg{
-    height: 50px;
-    width: 10px;
+ .us{
+    align-self: center;
+    color: brown;
+    font-size: 50px;
+    font-weight: bold;
+ }
+  .aboutus .aimg img{
+    padding: 100px;
+    height: 500px;
+    width: 500px;
+ }
+ .aboutus{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    width: 100%;
+ }
+ .aboutus h2{
+    color: brown;
+    font-size: 60px;
+     font-weight:bold;
+ }
+ .aboutus h3{
+   padding: 50px;
+    color: rgb(12, 12, 12);
+    font-size: 80px;
+     font-weight: lighter;
  }
  .images{
     display: flex;
@@ -57,4 +83,16 @@ font-size: 60px;
     height: 110px;
     width: 110px;
 
+ }
+ .menu{
+    align-self: center;
+    color: brown;
+    font-size: 50px;
+    font-weight: bold;
+ }
+ .login{
+    align-self: center;
+    color: brown;
+    font-size: 50px;
+    font-weight: bold;
  }
