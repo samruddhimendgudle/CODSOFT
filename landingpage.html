@@ -1,76 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Food Ordering System</title>
 </head>
+
 <body>
     <header>
-    <nav>
-        <div class="logo">
-            <h1>Sam Food's</h1>
-            <!-- <img src="https://img.freepik.com/premium-vector/fast-food-icons-set-blue-background_78458-81.jpg?w=2000" alt=""> -->
+        <nav>
+            <div class="logo">
+                <h1>Sam Food's</h1>
+                <!-- <img src="https://img.freepik.com/premium-vector/fast-food-icons-set-blue-background_78458-81.jpg?w=2000" alt=""> -->
+            </div>
+            <div class="list">
+                <a href="#Home">Home</a>
+                <a href="#About">About Us</a>
+                <a href="#Menu">Menu</a>
+                <a href="#Login">Login</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <div class="container" id="Home">
+        <div class="himg">
+            <img src="https://m.media-amazon.com/images/I/81bf83jJvGL._AC_UF1000,1000_QL80_.jpg" alt="">
         </div>
-        <div class="list">
-        <a href="">Home</a>
-        <a href="">About Us</a>
-        <a href="">Menu</a>
-        <a href="">Gallery</a>
-        <a href="">Login</a>
+        <div class="content">
+            <h1>Order, Eat, Repeat </h1>
+            <h4> Effortless Food Delivery for Every Palate.</h4>
+        </div>
     </div>
-        
-    </nav>
 
-</header>
-<div class="container">
-<div class="himg">
-    <img src="https://m.media-amazon.com/images/I/81bf83jJvGL._AC_UF1000,1000_QL80_.jpg" alt="">
-</div>
-<div class="content">
-    <h1>Order, Eat, Repeat </h1>
-    <h4> Effortless Food Delivery for Every Palate.</h4>
-</div>
-</div>
-<h1 class="us"> About Us</h1>
-<div class="aboutus"> 
-<div class="aimg">
-<img src="F:\FAREWELL 2023\Farewell photos 2023\IMG20230430111458.jpg" alt="">
-</div>
-<div class="acontent">
-<h2>Welcome to Sam's Food!</h2>
-    <h4>Our Story
-    At Sam's Food, we believe in the power of food to bring people together, 
-    create unforgettable moments, and nourish both body and soul.
-     Our journey began with a passion for culinary exploration and
- a deep appreciation for the diverse tapestry of flavors that make up the world of food.
-    
-    Founded in 2023, our team of dedicated food enthusiasts set out on a mission to curate a culinary experience that transcends borders and celebrates the rich heritage of cuisines from around the globe. Whether you're a seasoned chef or a kitchen novice, we aim to be your go-to resource for inspiration, recipes, and the joy of cooking.
-</h4>
-</div>
-</div>
-<h1 class="menu">Menu</h1>
-<div class="iamges">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTooo2PY8vh1u9KwbbkYbdwHSjVhopAnWev1w&usqp=CAU" alt="INF">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWKMHR-hLNW9oB_mBtUZKYf7U5IsRbU47lIw&usqp=CAU" alt="INF">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS74sRLx02ecOuloOJ2lFfNo5OKV1jE7GcwtQ&usqp=CAU" alt="INF">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfifbEpSXkYWl5mnbub0WKB7vFoiMT2Jaosw&usqp=CAU" alt="INF">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_YPeXOHQSnkm3U0fHgelhd46_lsjMIpp0rQ&usqp=CAU" alt="INF">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3dcYr98RtMQUt86LUwtsFky-Jl6iECPiG9Q&usqp=CAU" alt="INF">
+    <!-- About Us -->
+    <div class="aboutus" id="About">
 
-</div>
-<h1 class="login"> Login</h1>
-<div class="loginpage">   
-    <label>Username : </label>   
-    <input type="text" placeholder="Enter Username" name="username" required>  
-    <label>Password : </label>   
-    <input type="password" placeholder="Enter Password" name="password" required>  
-    <button type="submit">Login</button>   
-    <input type="checkbox" checked="checked"> Remember me   
-    <button type="button" class="cancelbtn"> Cancel</button>   
-    Forgot <a href="#"> password? </a>   
-</div>   
+        <div class="aimg">
+            <img src="F:\FAREWELL 2023\Farewell photos 2023\IMG20230430111458.jpg" alt="Image Not Found">
+        </div>
+
+        <div class="acontent">
+            <h1> About Us</h1>
+            <h3>Welcome to Sam's Food!</h3>
+            <p>Our Story
+                At Sam's Food, we believe in the power of food to bring people together,
+                create unforgettable moments, and nourish both body and soul.
+                Our journey began with a passion for culinary exploration and
+                a deep appreciation for the diverse tapestry of flavors that make up the world of food.
+
+                Founded in 2023, our team of dedicated food enthusiasts set out on a mission to curate a culinary
+                experience that transcends borders and celebrates the rich heritage of cuisines from around the globe.
+                Whether you're a seasoned chef or a kitchen novice, we aim to be your go-to resource for inspiration,
+                recipes, and the joy of cooking.
+            </p>
+        </div>
+    </div>
+
+    <!-- Menu -->
+    <div class="images" id="Menu">
+        <h1>Menu</h1>
+        <div class="menu">
+
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTooo2PY8vh1u9KwbbkYbdwHSjVhopAnWev1w&usqp=CAU"
+                    alt="INF">
+            </div>
+
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWKMHR-hLNW9oB_mBtUZKYf7U5IsRbU47lIw&usqp=CAU"
+                alt="INF">
+            </div>           
+            
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS74sRLx02ecOuloOJ2lFfNo5OKV1jE7GcwtQ&usqp=CAU"
+                alt="INF">
+            </div>         
+
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfifbEpSXkYWl5mnbub0WKB7vFoiMT2Jaosw&usqp=CAU"
+                alt="INF">
+            </div>
+
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_YPeXOHQSnkm3U0fHgelhd46_lsjMIpp0rQ&usqp=CAU"
+                alt="INF">
+            </div>        
+
+            <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3dcYr98RtMQUt86LUwtsFky-Jl6iECPiG9Q&usqp=CAU"
+            alt="INF">
+            </div>
+
+              <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTooo2PY8vh1u9KwbbkYbdwHSjVhopAnWev1w&usqp=CAU"
+                    alt="INF">
+            </div>
+
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWKMHR-hLNW9oB_mBtUZKYf7U5IsRbU47lIw&usqp=CAU"
+                alt="INF">
+            </div>           
+            
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS74sRLx02ecOuloOJ2lFfNo5OKV1jE7GcwtQ&usqp=CAU"
+                alt="INF">
+            </div>         
+
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfifbEpSXkYWl5mnbub0WKB7vFoiMT2Jaosw&usqp=CAU"
+                alt="INF">
+            </div>
+
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_YPeXOHQSnkm3U0fHgelhd46_lsjMIpp0rQ&usqp=CAU"
+                alt="INF">
+            </div>        
+
+            <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3dcYr98RtMQUt86LUwtsFky-Jl6iECPiG9Q&usqp=CAU"
+            alt="INF">
+            </div>
+
+            
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTooo2PY8vh1u9KwbbkYbdwHSjVhopAnWev1w&usqp=CAU"
+                    alt="INF">
+            </div>
+
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWKMHR-hLNW9oB_mBtUZKYf7U5IsRbU47lIw&usqp=CAU"
+                alt="INF">
+            </div>           
+            
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS74sRLx02ecOuloOJ2lFfNo5OKV1jE7GcwtQ&usqp=CAU"
+                alt="INF">
+            </div>         
+
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfifbEpSXkYWl5mnbub0WKB7vFoiMT2Jaosw&usqp=CAU"
+                alt="INF">
+            </div>
+
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_YPeXOHQSnkm3U0fHgelhd46_lsjMIpp0rQ&usqp=CAU"
+                alt="INF">
+            </div>        
+
+            <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3dcYr98RtMQUt86LUwtsFky-Jl6iECPiG9Q&usqp=CAU"
+            alt="INF">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="loginpage" id="Login">
+        <h1 class="login"> Login</h1>
+        <label>Username : </label>
+        <input type="text" placeholder="Enter Username" name="username" required>
+        <label>Password : </label>
+        <input type="password" placeholder="Enter Password" name="password" required>
+        <button type="submit">Login</button>
+        <input type="checkbox" checked="checked"> Remember me
+        <button type="button" class="cancelbtn"> Cancel</button>
+        Forgot <a href="#"> password? </a>
+    </div>
 </body>
 
 </html>

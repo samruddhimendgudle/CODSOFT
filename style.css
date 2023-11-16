@@ -1,14 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-header{
+
+/* Code For Navbar */
+header {
     height: 100%;
     width: 100%;
-    /* background-color: yellow; */
 }
-nav{
+
+nav {
     color: white;
     width: 100%;
     height: 15vh;
@@ -19,17 +21,21 @@ nav{
     padding: 0px 30px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-.logo h1{
+
+.logo h1 {
     font-size: 40px;
 
 }
-.list a{
+
+.list a {
     color: white;
     text-decoration: none;
     padding: 40px;
     font-size: 25px;
 }
-.container{
+
+/* Code For Home */
+.container {
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -38,61 +44,88 @@ nav{
     width: 100%;
 }
 
-.container .himg img{
+.container .himg img {
     height: 620px;
     width: 140%;
 }
- .content h1{
-color: brown;
-font-size: 60px;
- font-weight:bold;
- }
- .us{
-    align-self: center;
-    color: brown;
-    font-size: 50px;
-    font-weight: bold;
- }
-  .aboutus .aimg img{
-    padding: 100px;
-    height: 500px;
-    width: 500px;
- }
- .aboutus{
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    padding: 5px;
-    position: relative;
-    width: 100%;
- }
- .aboutus h2{
-    color: brown;
-    font-size: 60px;
-     font-weight:bold;
- }
- .aboutus h3{
-   padding: 50px;
-    color: rgb(12, 12, 12);
-    font-size: 80px;
-     font-weight: lighter;
- }
- .images{
-    display: flex;
-    padding: 90px;
-    height: 110px;
-    width: 110px;
 
- }
- .menu{
-    align-self: center;
+.content h1 {
     color: brown;
-    font-size: 50px;
+    font-family: "Segoe Print", Times, serif;
+    font-size: 60px;
     font-weight: bold;
- }
- .login{
-    align-self: center;
+}
+
+/* Code For About Us */
+.aboutus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 90vh;
+}
+
+.aboutus .aimg img {
+    width: 500px;
+    position: relative;
+    top: 20px;
+}
+
+.aboutus .acontent {
+    padding: 25px;
+}
+
+.aboutus .acontent h1 {
     color: brown;
-    font-size: 50px;
+    font-family: "Segoe Print", Times, serif;
+    font-size: 60px;
     font-weight: bold;
- }
+}
+
+.aboutus .acontent h3 {
+    font-size: 25px;
+}
+
+.aboutus .acontent p {
+    font-size: 20px;
+}
+
+/* Code For Menu */
+.images {
+    width: 100%;
+}
+
+.images h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Segoe Print", Times, serif;
+    color: brown;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.menu {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.menu .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    height: 300px;
+    margin-top: 10px;
+    background-color: rgb(237, 193, 226);
+    box-shadow: rgba(120, 47, 47, 0.35) 0px 5px 15px;
+}
+
+.menu .box img {
+    width: 200px;
+    height: 250px;
+
+}
