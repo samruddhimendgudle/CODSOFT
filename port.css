@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+/* Code For Navbar */
+header {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    color: white;
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(9, 10, 10);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.logo h1 {
+    font-size: 40px;
+
+}
+
+.list a {
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+    font-size: 25px;
+}
+
+/* Code For Home */
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    width: 100%;
+}
+
+.container .himg img {
+    width: 500px;
+    position: relative;
+    top: 20px;
+    padding: 20px;
+    border: rgb(240, 240, 240);
+    border-radius: 100%;
+}
+
+.container .content h1 {
+    color: rgb(234, 224, 224);
+    font-family: "Segoe Print", Times, serif;
+    align-items: flex-starts;
+    font-size: 40px;
+    font-weight: bold;
+}
+/* Code For About Us */
+.aboutus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 90vh;
+}
+
+.aboutus .aimg img {
+    width: 500px;
+    position: relative;
+    top: 20px;
+    padding: 20px;
+    border: rgb(240, 240, 240);
+}
+
+.aboutus .acontent {
+    padding: 25px;
+}
+
+.aboutus .acontent h1 {
+    color: brown;
+    font-family: "Segoe Print", Times, serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+.aboutus .acontent h2{
+    color: white;
+    font-family: "Segoe Print", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.aboutus .acontent h3 {
+    font-size: 25px;
+}
+
+.aboutus .acontent p {
+    font-size: 20px;
+}
+/* skills */
+.skills {
+    color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 90vh;
+}
+.skills .scontent h2{
+    color: white;
+    font-family: "Segoe Print", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* projects */
+.pro{
+    color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 90vh;
+}
+.pro.pcontent h2 a {
+    color: white;
+    font-family: "Segoe Print", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
