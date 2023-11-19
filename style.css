@@ -69,6 +69,8 @@ nav {
     width: 500px;
     position: relative;
     top: 20px;
+    padding: 20px;
+    border: black;
 }
 
 .aboutus .acontent {
