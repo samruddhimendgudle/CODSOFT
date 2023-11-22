@@ -103,7 +103,7 @@ nav {
   justify-content: center;
   font-family: "Segoe Print", Times, serif;
   color: brown;
-  font-size: 40px;
+  font-size: 60px;
   font-weight: bold;
 
 }
@@ -133,7 +133,7 @@ nav {
 }
 
 .main-container{
-  background-color: red;
+  /* background-color: red; */
   width: 100%;
   position: relative;
   display: flex;
@@ -147,19 +147,35 @@ nav {
   left: 30px;
   width: 30%;
   height: 70vh;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 .main-container .image img{
+  width: 1480px;
+  height: 650px;
+ padding: opx;
+ backdrop-filter: blur(10px);
+  margin-bottom: 170px;
+  
   /* width-height-padding */
 }
 /* Login Form */
+ .login h1 {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe Print", Times, serif;
+  color: brown;
+  font-size: 60px;
+  font-weight: bold;
+}
 .form-container {
   position: relative;
   right: 50px;
   border-radius: 4px;
   padding: 70px;
   width: 600px;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 50px;
   background-color: black;
 }
@@ -244,3 +260,4 @@ form .remember-me input {
 form .form-help :where(label) {
   font-size: 0.9rem;
 }
+
