@@ -135,14 +135,19 @@ nav {
 .main-container{
   /* background-color: red; */
   width: 100%;
+  background-image: url("https://images.creativemarket.com/0.1.0/ps/7065029/1820/965/m1/fpnw/wm1/fskqsdmhcmtrnadgcmunaflw1nh5tavkkv3n4kztdzp8kbz3mdyso1yajjfq2c1o-.jpg?1569963940&s=bc72ef9863a09c077c9806ae416074af");
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  height: 95vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
   
 }
 
 .main-container .image{
+  padding: 3px;
   position: relative;
   left: 30px;
   width: 30%;
@@ -171,12 +176,12 @@ nav {
 }
 .form-container {
   position: relative;
-  right: 50px;
   border-radius: 4px;
-  padding: 70px;
-  width: 600px;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  padding: 100px;
+  width: 800px;
+  top: 65px;
+  /* top: 20px; */
+  /* margin-bottom: 50px; */
   background-color: black;
 }
 
