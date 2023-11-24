@@ -188,3 +188,26 @@ padding: 30px;
     font-weight: bold;
   
 }
+.contact .image1{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 10%;
+
+}
+.contact .image1 .info h2{
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+    justify-content: center;
+
+}
+.contact .image1 img{
+    width: 3%;
+    height: 3%;
+}
+.contact .image1 .info h2 a{
+    text-decoration: none;
+    color: white;
+
+}
